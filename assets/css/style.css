@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+/* 
+Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
+Font-family: Open Sans;
+Font-family: Athene;
+*/
+
+/* ======== Allgemein ========== */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+
+h2{
+    font-size: 10rem;
+    font-family: Athene;
+}
+
+/* ========== Köpfer ============= */
+
+body header nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+body header{
+    margin: 0 auto;
+    text-align: center;
+    background-color: ##DEB873;
+    color: #042A5A;
+}
+
+body header nav p:first-child{
+    float: left;
+    padding: 15px 0 0 100px;
+}
+
+body header nav div:nth-of-type(1){
+    border-bottom: 2px solid #042A5A;
+    padding-top: 45px;
+}
+
+body header nav p:nth-of-type(2){
+    float: right;
+    padding: 15px 100px 0 0;
+}
+
+body header h1, body header h2{
+    font-size: 10rem;
+    border-bottom: 2px solid #042A5A;
+    width: 75%;
+    margin: 0 auto;
+    font-family: Athene;
+    word-spacing: 30px;
+    font-weight: lighter;
+}
+
+body header h1{
+    padding: 35px 0 0 0;
+}
+
+body header div img{
+    width: 400px;
+    padding: 50px 0 25px 0;
+}
+
+body header p{
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Athene;
+    padding: 0 0 8vh 0;
+}
+
+body header p span{
+    font-family: Open Sans;
+}
+
+/* ============ Haupt ============== */
+
+
+
+/* ============ Sektion Nummer 1 ============ */
+
+main section:first-child{
+    background-color: #F4C4C4;
+}
+
+main section p:first-child{
+    padding: 75px 0 50px 75px;
+    font-family: Open Sans;
+}
+
+main section h2{
+    display: block;
+    font-size: 10rem;
+    font-family: Athene;
+    width: 20%;
+    padding: 0px 0 0 10px;
+    line-height: 11rem;
+    font-weight: lighter;
+}
+
+main section div{
+    padding-left: 40rem;
+    padding-bottom: 75px;
+}
+
+main section div p{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 18px;
+    font-family: Open Sans;
+    line-height: 40px;
+}
+
+/* ======== Tabelle ============== */
+
+table{
+    font-family: Open Sans;
+    text-align: right;
+    width: 30vw;
+    margin-left: auto;
+    padding: 0 75px 50px 0;
+    table-layout: auto;
+    width: 50vw;
+}
+
+
+main section table tr:first-child th{
+    border-bottom: 1px solid black;
+    text-align: right;
+    font-size: 16px;
+}
+
+main section table tr:nth-of-type(2) td{
+    border-bottom: 1px solid black;
+    padding: 25px 0 25px 0;
+}
+
+main section table tr:nth-of-type(3) td{
+    border-bottom: 1px solid black;
+    padding: 25px 0 25px 0;
+}
+
+main section table tr:nth-of-type(4) td{
+    border-bottom: 1px solid black;
+    padding: 25px 0 25px 0;
+}
+
+main section table tr:nth-of-type(2) td:nth-of-type(2), main section table tr:nth-of-type(2) td:nth-of-type(1), main section table tr:nth-of-type(3) td:nth-of-type(2), main section table tr:nth-of-type(3) td:nth-of-type(1), main section table tr:nth-of-type(4) td:nth-of-type(2), main section table tr:nth-of-type(4) td:nth-of-type(1){
+    text-align: left;
+}
+
+main section table tr:nth-of-type(2) td:nth-of-type(2), main section table tr:nth-of-type(3) td:nth-of-type(2), main section table tr:nth-of-type(4) td:nth-of-type(2){
+    font-size: 21px;
+} 
+
+main section table tr:nth-of-type(2) td:nth-of-type(odd), main section table tr:nth-of-type(3) td:nth-of-type(odd), main section table tr:nth-of-type(4) td:nth-of-type(odd){
+    font-size: 14px;
+}
+
+/* ======= Logo ========== */
+
+main section img{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    padding: 100px 75px 100px 0;
+}
+
+/* ========== Artikel ========================== */
+
+main article, main article section{
+    background-color: #DEB873;
+    color: #7D2222;
+}
+
+main article{
+    height: 540vh;
+}
+
+main article p{
+    text-align: right;
+    padding: 75px 75px 50px 0;
+    font-family: Open Sans;
+}
+
+main article h2{
+    text-align: right;
+    font-weight: lighter;
+    padding-right: 10px;
+}
+
+main article p:nth-of-type(2){
+    width: 50%;
+    text-align: left;
+    padding-left: 100px;
+    padding-bottom: 20vh;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+main article div:nth-of-type(1) h3{
+    font-size: 64px;
+    padding-left: 110px;
+    font-family: Athene;
+    font-weight: lighter;
+    width: 10%;
+}
+
+main article div:nth-of-type(1){
+    background: url(../img/bg-marconatto-1.jpg) no-repeat;
+    background-position: right 8vw center;
+    background-size: content;
+    height: 420px;
+    margin-bottom: 35vh;
+}
+
+main article div:nth-of-type(2){
+    background: url(../img/kathe_cover-1.jpg) no-repeat;
+    background-position: left 8vw center;
+    height: 420px;
+    margin-bottom: 35vh;
+}
+
+main article div:nth-of-type(2) h3{
+    font-size: 64px;
+    text-align: right;
+    font-family: Athene;
+    font-weight: lighter;
+    padding-right: 110px;
+}
+
+main article div:nth-of-type(3) h3{
+    font-size: 64px;
+    padding-left: 110px;
+    font-family: Athene;
+    font-weight: lighter;
+    width: 50%;
+}
+
+main article div:nth-of-type(3){
+    background: url(../img/bg-nicole-1.jpg) no-repeat;
+    background-position: right 8vw center;
+    background-size: content;
+    height: 420px;
+    margin-bottom: 35vh;
+}
+
+main article div:nth-of-type(4){
+    background: url(../img/boa_cover-1.jpg) no-repeat;
+    background-position: left 8vw center;
+    height: 420px;
+    margin-bottom: 35vh;
+}
+
+main article div:nth-of-type(4) h3{
+    font-size: 64px;
+    text-align: right;
+    font-family: Athene;
+    font-weight: lighter;
+    padding-right: 110px;
+}
+
+
+/* =============== FOOTER =============================== */
+
+footer{
+    background-color: #D2D2D2;
+    color: #388883;
+    font-family: Open Sans;
+}
+
+footer p:first-child{
+    padding: 75px 0 50px 75px;
+    font-family: Open Sans;
+}
+
+footer h2{
+    display: block;
+    font-size: 10rem;
+    font-family: Athene;
+    width: 20%;
+    padding: 0px 0 0 10px;
+    line-height: 11rem;
+    font-weight: lighter;
+}
+
+footer div{
+    text-align: center;
+}
+footer div p{
+    font-size: 24px;
+    text-align: left;
+    margin: 0 auto;
+    width: 35%;
+}
+
+footer nav ul{
+    text-align: right;
+    padding: 75px;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+footer nav ul li{
+    margin: 10px;
+}
